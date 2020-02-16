@@ -19,7 +19,12 @@ function pressIt(){
   })
 }
 
-//
+//submitIt
+function submitIt(){
+  $('form').on('submit', (event)=>{
+    alert()
+  })
+}
 
 $(document).ready(function(){
   getIt();
