@@ -10,6 +10,11 @@ function frameIt(){
   })
 }
 
+//pressIt
+function pressIt(){
+  $('input').on('keydown')
+}
+
 $(document).ready(function(){
   getIt();
   frameIt();
