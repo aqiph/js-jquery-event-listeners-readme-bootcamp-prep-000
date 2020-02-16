@@ -6,7 +6,8 @@ function getIt(){
 //frameIt
 function frameIt(){
   $('img').on('load', function(event){
-    $('img').attr('style', '.tasty')='.tasty';
+    $('img').attr('style', {border-width: 5px; border-color: red;
+  border-style: solid;});
   })
 }
 
