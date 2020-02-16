@@ -4,10 +4,9 @@ function getIt(){
 }
 
 //frameIt
-$('img').attr('class', 'tasty');
 function frameIt(){
   $('img').on('load', function(event){
-//    $('img').attr('class', );
+    $('img').attr('class', 'tasty');
   })
 }
 
