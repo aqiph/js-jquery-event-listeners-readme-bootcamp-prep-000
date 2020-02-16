@@ -4,7 +4,7 @@ function getIt(){
 }
 
 //frameIt
-$('img').attr('style', '.tasty');
+$('img').attr('style', );
 function frameIt(){
   $('img').on('load', function(event){
 //    $('img').attr('style', );
