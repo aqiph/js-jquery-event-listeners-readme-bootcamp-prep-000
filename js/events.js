@@ -4,10 +4,10 @@ function getIt(){
 }
 
 //frameIt
-$('img').attr('style', );
+$('img').attr('class', );
 function frameIt(){
   $('img').on('load', function(event){
-//    $('img').attr('style', );
+//    $('img').attr('class', );
   })
 }
 
