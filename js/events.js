@@ -5,7 +5,7 @@ function getIt(){
 
 //frameIt
 function frameIt(){
-  $('img').on('click', function(event){
+  $('img').on('load', function(event){
     $('img').attr('class', 'tasty');
   })
 }
